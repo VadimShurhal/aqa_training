@@ -13,5 +13,4 @@ jobs:
             pip install -r requirements.txt
       - run:
           name: start test
-          command: |
-            pytest
+          run: pytest tests/test_fibonacci.py
